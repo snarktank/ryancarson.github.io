@@ -1,0 +1,29 @@
+/* Custom CSS for additional styling */
+body {
+    scroll-behavior: smooth;
+}
+
+/* Hover effects for social icons */
+#contact a svg {
+    transition: transform 0.3s ease;
+}
+
+#contact a:hover svg {
+    transform: scale(1.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    header {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    #name {
+        font-size: 2.5rem;
+    }
+
+    #tagline {
+        font-size: 1.25rem;
+    }
+}
